@@ -30,20 +30,57 @@ p {
   list-style: none;
 }
 
-.evolution {
+#evolution {
   margin: 0 25%;
 }
 
 section {
   display: flex;
   flex-direction: column;
+  line-height: 1.5;
 }
 
 aside {
+  font-family: roboto;
   margin-left: 1em;
   border: solid gray 1px;
   background-color: #f0f0f0;
   padding: 5px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+aside > * {
+  margin: 5px 0;
+}
+
+.aside-paragraph {
+  text-align: center;
+  font-size: 14px;
+}
+
+.aside-h3 {
+  text-align: center;
+  background-color: #afcfd0;
+  padding: 5px 0;
+  font-size: 16px;
+}
+
+.aside-info {
+  display: flex;
+}
+
+.aside-info * {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.aside-list-one {
+}
+
+.aside-list-two {
+  margin-left: 35px;
 }
 
 footer {
